@@ -30,7 +30,8 @@ namespace ConsoleApp1
 
             if (inh == 'y')
             {
-                Console.Write("Write book names\n");
+                Console.Write("Select book \n");
+                Console.Write("java" + "\n" + "Android" + "\n" + "User dessign" + "\n" + ".Net" + "\n");
                 books = Console.ReadLine();
             }
             else
